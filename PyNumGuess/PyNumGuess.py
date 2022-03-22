@@ -104,7 +104,7 @@ class PyNumGuess():
         if clue_val > 0:
             print(f'The correct answer is {clue_val}x your last guess')
         elif clue_val < 0:
-            print(f'The correct answer is 1/{clue_val} your last guess')
+            print(f'The correct answer is 1/{clue_val*-1} your last guess')
 
 
 
